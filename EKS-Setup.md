@@ -52,20 +52,9 @@ Note: Cluster creation will take 5 to 10 mins of time (we have to wait). After c
 
 $ kubectl get nodes  
 
-# Step - 4 : Update EKS Cluster Config File in EKS Management Host.
-
-1. Execute below commant in EKs Management ost and copy kube config file data -->
-   $ cat .kube/config
-
-2. Execute below commands in Jenkins server and paste kube config file -->
-   $ sudo mkdir .kube
-   $ sudo vi .kube/config
-
-3. check EKS nodes -->
-   $ kubectl get nodes
 
 **Note: We should be able to see EKS cluster nodes here.**
 
 # We are done with our Setup #
 	
-## Step - 5 : After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing ##
+## Step - 4 : After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing ##
