@@ -54,14 +54,14 @@ $ kubectl get nodes
 
 # Step - 4 : Update EKS Cluster Config File in EKS Management Host.
 
-1. Execute below commant in EKs Management ost and copy kube config file data
+1. Execute below commant in EKs Management ost and copy kube config file data -->
    $ cat .kube/config
 
-2. Execute below commands in Jenkins server and paste kube config file
+2. Execute below commands in Jenkins server and paste kube config file -->
    $ sudo mkdir .kube
    $ sudo vi .kube/config
 
-3. check EKS nodes
+3. check EKS nodes -->
    $ kubectl get nodes
 
 **Note: We should be able to see EKS cluster nodes here.**
